@@ -1,7 +1,7 @@
 /* Global Element Styles */
 body {
   font-family: 'Montserrat', serif;
-  margin: 0 0 -16px 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -130,7 +130,7 @@ hr {
 
 .bottom-container {
   background: linear-gradient(#fcfefe, #66bfbf);
-  padding-top: 50px;
+  padding: 50px 0 10px 0;
 }
 
 .contact-icons {
@@ -139,5 +139,6 @@ hr {
 }
 
 .copyright {
-  color: #eaf6f6;
+  color: #11999E;
+  margin-bottom: 0;
 }

@@ -48,13 +48,13 @@ hr {
 
 .top-cloud {
   position: absolute;
-  left: 200px;
-  top: 100px;
+  left: 15%;
+  top: 10%;
 }
 
 .bottom-cloud {
-  top: 350px;
-  right: 300px;
+  top: 35%;
+  right: 20%;
   position: absolute;
 }
 
@@ -98,6 +98,11 @@ hr {
   float: right;
   margin: 0 0 0 30px;
   width: 25%;
+}
+
+.contact-me {
+  margin: auto;
+  width: 50%;
 }
 
 .btn {

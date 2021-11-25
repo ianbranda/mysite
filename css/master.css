@@ -46,18 +46,6 @@ hr {
   position: relative;
 }
 
-.top-cloud {
-  position: absolute;
-  left: 15%;
-  top: 10%;
-}
-
-.bottom-cloud {
-  top: 35%;
-  right: 10%;
-  position: absolute;
-}
-
 .mountains {
   width: 100%;
 }
@@ -134,8 +122,8 @@ hr {
 }
 
 .bottom-container {
-  background: linear-gradient(#fcfefe, #66bfbf);
-  padding: 50px 0 10px 0;
+  background-color: #66bfbf;
+  padding: 30px 0 10px 0;
 }
 
 .contact-icons {
@@ -144,6 +132,15 @@ hr {
 }
 
 .copyright {
-  color: #11999E;
+  color: white;
   margin-bottom: 0;
+}
+
+@media (max-width: 900px) {
+
+  .profile,
+  .skill-row,
+  .contact-me {
+    width: 90%;
+  }
 }
